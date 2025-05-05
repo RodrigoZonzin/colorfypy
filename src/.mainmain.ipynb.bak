@@ -1,0 +1,94 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "cb20eab5",
+   "metadata": {
+    "collapsed": false,
+    "jupyter": {
+     "outputs_hidden": false,
+     "source_hidden": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "import matplotlib.pyplot as plt\n",
+    "import numpy as np "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "5ce45d15",
+   "metadata": {
+    "collapsed": false,
+    "jupyter": {
+     "outputs_hidden": false,
+     "source_hidden": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "import cv2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "af6f7b48",
+   "metadata": {
+    "collapsed": false,
+    "jupyter": {
+     "outputs_hidden": false,
+     "source_hidden": false
+    }
+   },
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "[ WARN:0@117.867] global loadsave.cpp:268 findDecoder imread_('img4.jpeg'): can't open/read file: check file path/integrity\n"
+     ]
+    }
+   ],
+   "source": [
+    "img = cv2.imread('img4.jpeg', cv2.IMREAD_COLOR_BGR)"
+   ]
+  }
+ ],
+ "metadata": {
+  "jupytext": {
+   "cell_metadata_filter": "-all",
+   "main_language": "python",
+   "notebook_metadata_filter": "-all"
+  },
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.3"
+  },
+  "widgets": {
+   "application/vnd.jupyter.widget-state+json": {
+    "state": {},
+    "version_major": 2,
+    "version_minor": 0
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
